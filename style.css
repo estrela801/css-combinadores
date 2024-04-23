@@ -131,6 +131,23 @@ body{
     flex-shrink: 50%;
 }
 
+.circulo{
+    display:flex;
+}
+#circulo{
+    margin-top: 25px;
+    height: 40px;
+    width: 40px;
+    border-top: 3px solid rgb(255, 255, 255);
+    animation: circulo 1ms linear infinite;
+    border-radius: 50%;
+}
+@keyframes circulo {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
 a{ 
     cursor: initial;  /* retira estilos de cursor*/
     text-decoration: none; 
