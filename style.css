@@ -138,7 +138,8 @@ body{
     margin-top: 25px;
     height: 40px;
     width: 40px;
-    border-top: 3px solid rgb(255, 255, 255);
+    border-top: 3px solid  rgb(195, 255, 0);
+    border-bottom: 3px solid rgb(136, 0, 255);
     animation: circulo 1ms linear infinite;
     border-radius: 50%;
 }
